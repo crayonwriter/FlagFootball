@@ -26,9 +26,9 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:text="Team A"
+                android:text="@string/team_a"
                 android:textSize="@dimen/mediumTextSize"
-                android:textColor="#616161"
+                android:textColor="@color/colorTeams"
                 android:textStyle="bold" />
 
             <TextView
@@ -49,7 +49,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="sixPointsTDTeamA"
-                android:text="Touchdown"
+                android:text="@string/touchdown"
                 android:textAllCaps="true" />
 
             <Button
@@ -59,7 +59,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="onePointThreeYardTeamA"
-                android:text="3-Yard TD Point"
+                android:text="@string/_3Yard"
                 android:textAllCaps="true" />
 
             <Button
@@ -69,7 +69,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="twoPointsTenYardTeamA"
-                android:text="10-Yard TD Points"
+                android:text="@string/_10Yard"
                 android:textAllCaps="true" />
 
             <Button
@@ -79,7 +79,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="twoPointsSafetyTeamA"
-                android:text="Safety"
+                android:text="@string/safety"
                 android:textAllCaps="true" />
 
         </LinearLayout>
@@ -102,9 +102,9 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:text="Team B"
+                android:text="@string/team_b"
                 android:textSize="@dimen/mediumTextSize"
-                android:textColor="#616161"
+                android:textColor="@color/colorTeams"
                 android:textStyle="bold" />
 
             <TextView
@@ -125,7 +125,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="sixPointsTDTeamB"
-                android:text="Touchdown"
+                android:text="@string/touchdown"
                 android:textAllCaps="true" />
 
 
@@ -136,7 +136,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="onePointThreeYardTeamB"
-                android:text="3-Yard TD Point"
+                android:text="@string/_3Yard"
                 android:textAllCaps="true" />
 
             <Button
@@ -146,7 +146,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="twoPointsTenYardTeamB"
-                android:text="10-Yard TD Points"
+                android:text="@string/_10Yard"
                 android:textAllCaps="true" />
 
             <Button
@@ -156,7 +156,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="twoPointsSafetyTeamB"
-                android:text="Safety"
+                android:text="@string/safety"
                 android:textAllCaps="true" />
 
         </LinearLayout>
@@ -176,9 +176,9 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:onClick="resetTeamScores"
-            android:text="Reset"
-            android:textStyle="bold"
-            android:textAllCaps="true" />
+            android:text="@string/reset"
+            android:textSize="@dimen/mediumTextSize"
+            android:textStyle="bold" />
     </LinearLayout>
 
 

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Flag Football</string>
+    <string name="_10Yard">10-Yard TD Points</string>
+    <string name="_3Yard">3-Yard TD Point</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="team_a">Team A</string>
+    <string name="safety">Safety</string>
+    <string name="team_b">Team B</string>
+    <string name="reset">Reset</string>
 </resources>
